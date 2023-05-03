@@ -1,0 +1,802 @@
+{
+	"id": "a3ce973f-8636-4205-bf7b-17b1f616396e",
+	"name": "GitHub Project",
+	"timestamp": "2023-05-03T13:27:53.143Z",
+	"collection_id": "25566165-dab5169a-e6ac-46ba-a1dd-fca0322a0663",
+	"folder_id": 0,
+	"environment_id": "25566165-c39a69d5-6af7-4d89-a987-1b71e6188076",
+	"totalPass": 60,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-03T13:27:13.735Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2e9311ae-752f-4d87-9637-b029eecabac7",
+			"name": "1. Create a repository for the authenticated user",
+			"url": "https://api.github.com/user/repos",
+			"time": 1323,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				1756,
+				1491,
+				1323
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "a0c762f1-9110-4ad3-a850-944a0f94866f",
+			"name": "2. Update a repository",
+			"url": "https://api.github.com/repos/jitenderji1137/masaischool5634",
+			"time": 587,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				601,
+				650,
+				587
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "edd44b9c-88d7-4dc8-beac-e5cffba9f62b",
+			"name": "4. Get a repository",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654",
+			"time": 355,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				338,
+				408,
+				355
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6c36af61-2015-41c2-9a48-bf15e39ec284",
+			"name": "10. Create file contents",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/contents/README.md",
+			"time": 507,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				645,
+				530,
+				507
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "d3fd444f-31e5-4769-b068-8eec1797aea4",
+			"name": "5. CREATE A FORK",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/forks",
+			"time": 1125,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {
+				"Status code is 202": true
+			},
+			"testPassFailCounts": {
+				"Status code is 202": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				1228,
+				1182,
+				1125
+			],
+			"allTests": [
+				{
+					"Status code is 202": true
+				},
+				{
+					"Status code is 202": true
+				},
+				{
+					"Status code is 202": true
+				}
+			]
+		},
+		{
+			"id": "517ae1e3-88f0-4370-a28b-c313fde3320b",
+			"name": "6. LIST FORKS",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/forks",
+			"time": 433,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				357,
+				397,
+				433
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5d1d72ad-cc5e-4e4d-a59b-2d429639af9c",
+			"name": "7. List repositories for a user",
+			"url": "https://api.github.com/users/jitenderji1137/repos",
+			"time": 497,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				561,
+				578,
+				497
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2bf4e526-f108-47f2-868f-8fb14d86bc06",
+			"name": "8. List repository languages",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/languages",
+			"time": 315,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				304,
+				313,
+				315
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d9b85c52-e016-4396-8e62-ce05c74e5f97",
+			"name": "9. List public repositories",
+			"url": "https://api.github.com/repositories",
+			"time": 436,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				443,
+				410,
+				436
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "88997f0d-5fda-4d50-b18c-5c21d33983c8",
+			"name": "Extra. Delete a repository",
+			"url": "https://api.github.com/repos/jitenderji1137-org-For-API-Testing/New-Fork",
+			"time": 522,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				583,
+				591,
+				522
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "dc0605b7-2237-4cdc-bf3f-0e60d8b60b65",
+			"name": "11. Delete a file",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/contents/README.md",
+			"time": 519,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				491,
+				485,
+				519
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7ec495d5-259d-4de9-a784-a51aa93c9a02",
+			"name": "Extra. Create a release",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/releases",
+			"time": 655,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				768,
+				669,
+				655
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "dd0d0f13-f563-4517-acee-bc2e5a12ca5f",
+			"name": "12. List repository tags",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/tags",
+			"time": 317,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				307,
+				300,
+				317
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0d64555f-8900-4a54-adc5-d6bbbed099b6",
+			"name": "13. Create an autolink reference for a repository",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/autolinks",
+			"time": 317,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				335,
+				332,
+				317
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "f5167a30-ef91-4c06-8690-eaf9116c9ede",
+			"name": "18. Replace all repository topics",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/topics",
+			"time": 754,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				683,
+				702,
+				754
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "da6d380d-2b5d-4c57-9372-fcca7299d3a4",
+			"name": "14. Get all repository topics",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/topics",
+			"time": 363,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				362,
+				388,
+				363
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4d44352e-16cf-4355-8c65-5dbb13a785f2",
+			"name": "15. Get an autolink reference of a repository",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/autolinks/1641232",
+			"time": 311,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				302,
+				311,
+				311
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "27752301-dd93-4aaf-83f0-8ff133e9b42d",
+			"name": "16. Delete an autolink reference from a repository",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654/autolinks/1641232",
+			"time": 315,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				308,
+				303,
+				315
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "56923e9a-8437-4b10-8798-51439e95250a",
+			"name": "17. Get a repository",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654",
+			"time": 605,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				354,
+				336,
+				605
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bfbfbad0-cb93-41f5-a3db-5f800fb134f0",
+			"name": "3. Delete a repository",
+			"url": "https://api.github.com/repos/jitenderji1137/schoolmasai3654",
+			"time": 539,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				500,
+				601,
+				539
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 32998,
+	"collection": {
+		"requests": [
+			{
+				"id": "2e9311ae-752f-4d87-9637-b029eecabac7",
+				"method": "POST"
+			},
+			{
+				"id": "a0c762f1-9110-4ad3-a850-944a0f94866f",
+				"method": "PATCH"
+			},
+			{
+				"id": "edd44b9c-88d7-4dc8-beac-e5cffba9f62b",
+				"method": "GET"
+			},
+			{
+				"id": "6c36af61-2015-41c2-9a48-bf15e39ec284",
+				"method": "PUT"
+			},
+			{
+				"id": "d3fd444f-31e5-4769-b068-8eec1797aea4",
+				"method": "POST"
+			},
+			{
+				"id": "517ae1e3-88f0-4370-a28b-c313fde3320b",
+				"method": "GET"
+			},
+			{
+				"id": "5d1d72ad-cc5e-4e4d-a59b-2d429639af9c",
+				"method": "GET"
+			},
+			{
+				"id": "2bf4e526-f108-47f2-868f-8fb14d86bc06",
+				"method": "GET"
+			},
+			{
+				"id": "d9b85c52-e016-4396-8e62-ce05c74e5f97",
+				"method": "GET"
+			},
+			{
+				"id": "88997f0d-5fda-4d50-b18c-5c21d33983c8",
+				"method": "DELETE"
+			},
+			{
+				"id": "dc0605b7-2237-4cdc-bf3f-0e60d8b60b65",
+				"method": "DELETE"
+			},
+			{
+				"id": "7ec495d5-259d-4de9-a784-a51aa93c9a02",
+				"method": "POST"
+			},
+			{
+				"id": "dd0d0f13-f563-4517-acee-bc2e5a12ca5f",
+				"method": "GET"
+			},
+			{
+				"id": "0d64555f-8900-4a54-adc5-d6bbbed099b6",
+				"method": "POST"
+			},
+			{
+				"id": "f5167a30-ef91-4c06-8690-eaf9116c9ede",
+				"method": "PUT"
+			},
+			{
+				"id": "da6d380d-2b5d-4c57-9372-fcca7299d3a4",
+				"method": "GET"
+			},
+			{
+				"id": "4d44352e-16cf-4355-8c65-5dbb13a785f2",
+				"method": "GET"
+			},
+			{
+				"id": "27752301-dd93-4aaf-83f0-8ff133e9b42d",
+				"method": "DELETE"
+			},
+			{
+				"id": "56923e9a-8437-4b10-8798-51439e95250a",
+				"method": "GET"
+			},
+			{
+				"id": "bfbfbad0-cb93-41f5-a3db-5f800fb134f0",
+				"method": "DELETE"
+			}
+		]
+	}
+}
