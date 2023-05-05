@@ -41,3 +41,10 @@ As This Project was related to GitHub API. We need to test few endpoints
 <div align="center">
 <img src="https://user-images.githubusercontent.com/113350806/236555303-cb1da941-75b9-4eba-bf03-7ef5d444c470.png" alt="logo" width="100%" height="auto" />
 </div>
+
+
+### [3.REST Assured in java with Cucumber][REST Assured in java with Cucumber]
+[REST Assured in java with Cucumber]:https://github-api-with-java.pages.dev/
+<div align="center">
+<img src="https://user-images.githubusercontent.com/113350806/236556146-ea476d1a-954e-4aa0-ac13-3b88b90b87db.png" alt="logo" width="100%" height="auto" />
+</div>
