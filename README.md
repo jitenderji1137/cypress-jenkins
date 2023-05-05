@@ -9,3 +9,7 @@
 As This Project was related to GitHub API. We need to test few endpoints 
 
 ## Flow of Work.
+- Create a repository for the authenticated user
+- Update a repository
+- Get a repository
+- Create file contents
