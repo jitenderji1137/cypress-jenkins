@@ -29,3 +29,8 @@ As This Project was related to GitHub API. We need to test few endpoints
 - Delete an autolink reference from a repository
 - Get a repository
 - Delete a repository
+
+
+## Implemented in Postman , Cypress with Cucumber and REST Assured in java with Cucumber 
+
+### Report of Postman.
