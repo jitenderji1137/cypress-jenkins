@@ -13,7 +13,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 public class stepdefination {
 	public static String baseurl="https://api.github.com";
-	public static String token = "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";
+	public static String token = "**********************************************";
 	public static String Reponame;
 	public static String ShaValue;
 	public static int autolinkid;
