@@ -13,3 +13,19 @@ As This Project was related to GitHub API. We need to test few endpoints
 - Update a repository
 - Get a repository
 - Create file contents
+- Create a Fork
+- List Fork
+- List repositories for a user
+- List repository languages
+- List public repositories
+- Delete a Fork
+- Delete a file
+- Create a release
+- List repository tags
+- Create an autolink reference for a repository
+- Replace all repository topics
+- Get all repository topics
+- Get an autolink reference of a repository
+- Delete an autolink reference from a repository
+- Get a repository
+- Delete a repository
