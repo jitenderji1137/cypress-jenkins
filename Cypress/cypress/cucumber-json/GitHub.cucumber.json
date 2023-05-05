@@ -1,0 +1,802 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Api Testing for GitHub As a Project",
+    "line": 1,
+    "id": "api-testing-for-github-as-a-project",
+    "tags": [],
+    "uri": "GitHub.feature",
+    "elements": [
+      {
+        "id": "api-testing-for-github-as-a-project;create-a-repository-for-the-authenticated-user",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Create a repository for the authenticated user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Make a post request with the resource '/user/repos'",
+            "result": {
+              "status": "passed",
+              "duration": 2418000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Store Necessary data in the variable",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The response status code should be '201'",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Check Wether the RepoName is stored in variable 'Hello-World-by'",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;update-a-repository",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Update a repository",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Make a PATCH request with the resource '/repos/jitenderji1137/Hello-World-by'",
+            "result": {
+              "status": "passed",
+              "duration": 877000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Store Necessary data in the variable",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "The response status code should be '200'",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Check Wether the updated RepoName is stored in variable 'Updated-Hello-World-by'",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;get-a-repository",
+        "keyword": "Scenario",
+        "line": 107,
+        "name": "Get a repository",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 108,
+            "name": "Make a GET request  with the resource '/repos/jitenderji1137/Updated-Hello-World-by'",
+            "result": {
+              "status": "passed",
+              "duration": 381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 109,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 110,
+            "name": "The response status code should be '200'",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;create-file-contents",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Create file contents",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "Make a PUT request with the resource '/repos/jitenderji1137/Updated-Hello-World-by/contents/README.md'",
+            "result": {
+              "status": "passed",
+              "duration": 728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Store Necessary data in the variable",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "The response status code should be '201'",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Check Wether the sha value is stored in variable",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;create-a-fork",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "CREATE A FORK",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "Make a POST request with the resource '/repos/jitenderji1137/Updated-Hello-World-by/forks'",
+            "result": {
+              "status": "passed",
+              "duration": 1203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "The response status code should be '202'",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;list-forks",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "LIST FORKS",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "Make a GET request For FORKS with the resource '/repos/jitenderji1137/Updated-Hello-World-by/forks'",
+            "result": {
+              "status": "passed",
+              "duration": 667000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "The response status code should be '200'",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;list-repositories-for-a-user",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "List repositories for a user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "Make a GET request for user repositories with the resource '/users/jitenderji1137/repos'",
+            "result": {
+              "status": "passed",
+              "duration": 785000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "The response status code should be '200'",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;list-repository-languages",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "List repository languages",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "Make a GET request for repositories languages with the resource '/repos/jitenderji1137/Free-Netflix/languages'",
+            "result": {
+              "status": "passed",
+              "duration": 451000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "The response status code should be '200'",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;list-public-repositories",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "List public repositories",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "Make a GET request for public repositories with the resource '/repositories'",
+            "result": {
+              "status": "passed",
+              "duration": 750000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "The response status code should be '200'",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;delete-a-fork",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "Delete a FORK",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "Make a Delete request with the resource '/repos/jitenderji1137-org-For-API-Testing/New-Fork'",
+            "result": {
+              "status": "passed",
+              "duration": 5739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "The response status code should be '204'",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;delete-a-file",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Delete a file",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "Make a Delete file request with the resource '/repos/jitenderji1137/Updated-Hello-World-by/contents/README.md'",
+            "result": {
+              "status": "passed",
+              "duration": 690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "The response status code should be '200'",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;create-a-release",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "Create a release",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 69,
+            "name": "Make a POST request to create a release with the resource '/repos/jitenderji1137/Updated-Hello-World-by/releases'",
+            "result": {
+              "status": "passed",
+              "duration": 693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "The response status code should be '201'",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;list-repository-tags",
+        "keyword": "Scenario",
+        "line": 73,
+        "name": "List repository tags",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 74,
+            "name": "Make a GET request for repositories tags with the resource '/repos/jitenderji1137/Updated-Hello-World-by/tags'",
+            "result": {
+              "status": "passed",
+              "duration": 407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "The response status code should be '200'",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;create-an-autolink-reference-for-a-repository",
+        "keyword": "Scenario",
+        "line": 78,
+        "name": "Create an autolink reference for a repository",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 79,
+            "name": "Make a POST request For autolink with the resource '/repos/jitenderji1137/Updated-Hello-World-by/autolinks'",
+            "result": {
+              "status": "passed",
+              "duration": 421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "Store Necessary data in the variable",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "The response status code should be '201'",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;replace-all-repository-topics",
+        "keyword": "Scenario",
+        "line": 85,
+        "name": "Replace all repository topics",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 86,
+            "name": "Make a PUT request for repositories topics with the resource '/repos/jitenderji1137/Updated-Hello-World-by/topics'",
+            "result": {
+              "status": "passed",
+              "duration": 809000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "The response status code should be '200'",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;get-all-repository-topics",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "Get all repository topics",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 91,
+            "name": "Make a GET request for repositories topics with the resource '/repos/jitenderji1137/Updated-Hello-World-by/topics'",
+            "result": {
+              "status": "passed",
+              "duration": 407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 93,
+            "name": "The response status code should be '200'",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;get-an-autolink-reference-of-a-repository",
+        "keyword": "Scenario",
+        "line": 96,
+        "name": "Get an autolink reference of a repository",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 97,
+            "name": "Make a GET request for repositories autolink with the resource '/repos/jitenderji1137/Updated-Hello-World-by/autolinks/'",
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 98,
+            "name": "Print the response in console",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "The response status code should be '200'",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;delete-an-autolink-reference-from-a-repository",
+        "keyword": "Scenario",
+        "line": 102,
+        "name": "Delete an autolink reference from a repository",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 103,
+            "name": "Make a Delete request to delete autolink with the resource '/repos/jitenderji1137/Updated-Hello-World-by/autolinks/'",
+            "result": {
+              "status": "passed",
+              "duration": 374000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 104,
+            "name": "The Delete response status code should be '204'",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api-testing-for-github-as-a-project;delete-a-repository",
+        "keyword": "Scenario",
+        "line": 112,
+        "name": "Delete a repository",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 113,
+            "name": "Make a Delete request to delete repo with the resource '/repos/jitenderji1137/Hello-World-by'",
+            "result": {
+              "status": "passed",
+              "duration": 975000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 114,
+            "name": "The Delete response status code should be '204'",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
