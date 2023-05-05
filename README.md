@@ -38,5 +38,4 @@ As This Project was related to GitHub API. We need to test few endpoints
 
 
 ### 2.Cypress with Cucumber.
-<iframe
-  src="https://example.org" title="Cypress with Cucumber." width="400" height="300"></iframe>
+<iframe src="https://example.org" title="Cypress with Cucumber." width="400" height="300"></iframe>
