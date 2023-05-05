@@ -4,5 +4,8 @@
 
 # GitHub API Testing Project
 
+## About This Project.
+
+As This Project was related to GitHub API. We need to test few endpoints 
 
 ## Flow of Work.
