@@ -33,11 +33,12 @@ As This Project was related to GitHub API. We need to test few endpoints
 
 ## Implemented in Postman , Cypress with Cucumber and REST Assured in java with Cucumber 
 
-### [1. Demo of Postman Implementation][Report of Postman]
+### [1. Report of Postman][Report of Postman]
 [Report of Postman]:https://github-api-with-postman.pages.dev/
 <div align="center">
-<img src="https://user-images.githubusercontent.com/113350806/236568724-d6195dfc-21e3-40d1-8ef8-60c9fbd2d92e.png" alt="logo" width="100%" height="auto" />
+<img src="https://user-images.githubusercontent.com/113350806/236673378-32a37258-4ccf-48e4-9ae5-046d6004a023.png" alt="logo" width="100%" height="auto" />
 </div>
+
 
 
 ### [2. Cypress with Cucumber.][Cypress with Cucumber.]
