@@ -1,5 +1,5 @@
 import {before,Given,When,And,Then} from "cypress-cucumber-preprocessor/steps";
-var token = "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";
+var token = "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";
 var baseUrl = "https://api.github.com";
 Given("Make a post request with the resource '{word}'",(Resource)=>{
     cy.request({
